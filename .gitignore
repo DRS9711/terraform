@@ -1,0 +1,8 @@
+cat > .gitignore <<'EOF'
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.DS_Store
+.vscode/
+EOF
